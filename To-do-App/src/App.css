@@ -1,0 +1,64 @@
+.container{
+  background-color: antiquewhite;
+  width: 60vw;
+  margin: 0px auto;
+  text-align: center;
+  padding: 20px;
+}
+input{
+  height: 2.8rem;
+  width: 15rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  padding: 0px 20px;
+  color: white;
+}
+input::placeholder{
+  color: white;
+  font-size: 0.9rem;
+  align-items: center;
+}
+button{
+  height: 2.8rem;
+  width: 6rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+.tasklist{
+  margin-top: 20px;
+}
+.task{
+  font-family: sans-serif;
+  background-color: rgb(247, 47, 47);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.delte{
+  background-color: blue;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;  
+}
